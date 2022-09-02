@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu-Login</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/e9f0e33121.js" crossorigin="anonymous" defer></script>
+    </head> 
+    <body>
+        <header>
+            <h1>Meu-Login</h1>
+        </header>
+           
+        
+        <div class="container">
+            <main>
+                <form>
+                    <section class="inputs-container">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="exampleInputEmail1">Usuário</label>
+                                <input type="email" class="form-control" placeholder="example@gmail.com">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label for="exampleInputEmail1">Senha</label>
+                                <input type="password" class="form-control" id="field-password" class="field-password" placeholder="********" />
+                                <i class="fa-solid fa-eye" id="eye" onclick="showPassword()"></i>
+                                <i class="fa-solid fa-eye-slash" id= "eye-slash" onclick="showPassword()"></i>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="password-infos">
+                        <div class="row">
+                            <div class="form-group form-check col-md-6">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Lembrar Senha</label>
+                              </div>
+                            <div class="col-md-6">
+                                <a href="#">Esqueceu sua senha?</a>
+                            </div>
+                        </div>
+                    </section>
+                    <button id="btm-login" class="btn btn-primary">Login</button>
+                    <section class="links-container">
+                        <div class="row text-center">
+                            <div class="col-md-12"><span>Ou entre com:</span></div>
+                        
+                            <div class="col-md-12">
+                                <a href="#"><i class="fa-brands fa-google-plus-square google"></i></a> 
+                                <a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-square facebook"></i></a>      
+                            </div>
+                        </div>
+    
+                    </section>
+    
+                    <footer>
+                        <hr>
+                        <span>Ainda nao tem uma conta? <a href="#">Cadastre-se</a></span>
+                    </footer>
+                </form>
+            </main>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</html>
